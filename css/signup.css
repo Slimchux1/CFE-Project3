@@ -1,0 +1,45 @@
+.signup{
+    background-color: #8ceccc;
+}
+
+.signup input{
+    height: 2rem;
+    background-color: #ececec;
+}
+.signup button{
+    background-color: #8ceccc;
+    border: rgb(229, 226, 226) solid 0.01rem;
+    border-radius: 0.2rem;
+    height: 3rem;
+    width: 95%;
+    color: white;
+}
+.input-group{
+    width: 97%;
+}
+.form_login{
+    width: 30rem;
+}
+
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.login{
+    background-color: #ececec;
+    height: 5rem;
+}
+.signup span {
+    color: red;
+}
+.border{
+    height: 4.6rem;
+}
+.input-group_field{
+    width: 90%;
+}

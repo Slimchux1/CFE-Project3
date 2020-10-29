@@ -1,0 +1,39 @@
+.login{
+    background-color: #8ceccc;
+}
+
+.input_text{
+    height: 3rem;
+    background-color: #ececec;
+}
+.login button{
+    background-color: #8ceccc;
+    border: rgb(229, 226, 226) solid 0.01rem;
+    border-radius: 0.2rem;
+    height: 3rem;
+    width: 100%;
+    color: white;
+}
+.input-group{
+    width: 90%;
+}
+.form_login{
+    width: 30rem;
+}
+
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.signup{
+    background-color: #ececec;
+    height: 5rem;
+}
+.fa-key{
+   transform: rotate(270deg);
+}
