@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css" media="all">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <div class="nav-section">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-light">
+                <a class="navbar-brand pl-md-4 py-3" href="../index.html">greenbrain</a> 
+                <div class="ml-auto pr-md-5" >
+                  <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-dark bg-white my-2 my-sm-0 text-dark" type="submit"><a href="../html/login.html" class="text-dark">Login</button></a>
+                  </form>
+                </div>
+              </nav>
+        </div>
+        <br><br>
+        <div class="lecture mt-4" id="tabs">
+              <!-- Nav tabs -->
+              <div class="px-4 mt-4 pt-4">
+                <ul class="nav nav-tabs nav-pills nav-fill nav-justified" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark active" data-toggle="tab" href="#lecture_notes" role="tab">Lecture Notes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" data-toggle="tab" href="#past_questions" role="tab">Past Questions</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" data-toggle="tab" href="#project_materials" role="tab">Project Material</a>
+                      </li>
+                  </ul>
+              </div>
+                  <div class="tab-content px-4 mx-5" id="myTabContent">
+                    <div class="tab-pane fade show active" id="lecture_notes" role="tabpanel">
+                        <div class="row">
+                            <div class="col note_btn py-4 px-4">
+                                <button type="button" class="btn filter_btn btn-light btn-lg"><img class="mr-4 pt-4 filter" src="../asset/filter.svg">Filter By Course</button>
+                            </div>
+                          </div>
+                          <!-------------------------------------lecture------------------------------------------------->
+
+                         <div class="lecture_content-dispaly spinner-loader">
+                        <!----  <div class="row">
+                            <div class="col col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_note bg-light mb-3"  id="card-lecturenote">
+                                  <div class="card-header text-center" >biology</div>
+                                  <div class="card-body">
+                                    <h5 class="card-title text-center">BOT 203</h5>
+                                    <p class="card-text text-center">university of abuja</p>
+                                    <p class="card-text text-center">200level</p>
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="col col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_note bg-light mb-3">
+                                  <div class="card-header text-center">economics</div>
+                                  <div class="card-body">
+                                    <h5 class="card-title text-center">ECN104: mathematics for economics</h5>
+                                    <p class="card-text text-center">university of abuja</p>
+                                    <p class="card-text text-center">100level</p>
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="col col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_note bg-light mb-3">
+                                  <div class="card-header text-center">biology</div>
+                                  <div class="card-body">
+                                    <h5 class="card-title text-center">ZOO401: parasitology</h5>
+                                    <p class="card-text text-center">university of abuja</p>
+                                    <p class="card-text text-center">400level</p>                
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="col col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_note bg-light mb-3">
+                                  <div class="card-header text-center">sociology</div>
+                                  <div class="card-body">
+                                    <h5 class="card-title text-center">SOC204: rural sociology</h5>
+                                    <p class="card-text text-center">university of abuja</p>
+                                    <p class="card-text text-center">200level</p>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>-->
+                          </div>
+
+
+
+                    </div>
+
+
+
+
+
+                    <div class="tab-pane fade " id="past_questions" role="tabpanel" aria-labelledby="profile-tab">
+                         <div class="row">
+                            <div class="col note_btn py-4 px-4">
+                                <button type="button" class="btn filter_btn btn-light btn-lg"><img class="mr-4 pt-4 filter" src="../asset/filter.svg">Filter By Course</button>
+                            </div>
+                          </div>
+                          <!-------------------------------------past question------------------------------------------------->
+                          <div class="question_content-dispaly spinner-loader">
+                         <!---- <div class="row">
+                            <div class="col col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_note bg-light mb-3">
+                                  <div class="card-header text-center">biology</div>
+                                  <div class="card-body">
+                                    <h5 class="card-title text-center">BOT 203</h5>
+                                    <p class="card-text text-center">university of abuja</p>
+                                    <p class="card-text text-center">200level</p>
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="col col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_note bg-light mb-3">
+                                  <div class="card-header text-center">economics</div>
+                                  <div class="card-body">
+                                    <h5 class="card-title text-center">ECN104: mathematics for economics</h5>
+                                    <p class="card-text text-center">university of abuja</p>
+                                    <p class="card-text text-center">100level</p>
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="col col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_note bg-light mb-3">
+                                  <div class="card-header text-center">biology</div>
+                                  <div class="card-body">
+                                    <h5 class="card-title text-center">ZOO401: parasitology</h5>
+                                    <p class="card-text text-center">university of abuja</p>
+                                    <p class="card-text text-center">400level</p>                
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="col col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_note bg-light mb-3">
+                                  <div class="card-header text-center">sociology</div>
+                                  <div class="card-body">
+                                    <h5 class="card-title text-center">SOC204: rural sociology</h5>
+                                    <p class="card-text text-center">university of abuja</p>
+                                    <p class="card-text text-center">200level</p>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>-->
+                          </div>
+
+
+
+                          
+                    </div>
+
+
+
+
+<!----------------------------------------------------------project material------------------------------------------->
+
+
+                    <div class="tab-pane " id="project_materials" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-6 c0l-sm-6 col-xs-6 note_btn py-4 px-4">
+                                <button type="button" class="btn filter_btn btn-light btn-lg"><img class="mr-4 pt-4 filter" src="../asset/filter.svg">Filter By Course</button>
+                            </div>
+                            <div class="col col-lg-6 col-md-6 c0l-sm-6 col-xs-6  mt-4">
+                                <img class="float-right arrow-up mt-3" src="../asset/arrow-up-circle.svg">
+                            </div>
+                          </div>
+                        
+                          <div class="project_content-dispaly spinner-loader">
+                        <!---- <div class="row">
+                            <div class="col col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_project bg-light mb-3">
+                                  <div class="card-body">
+                                    <h6 class="card-title text-center text-uppercase"><a href="#" class="text-dark">HISTORY OF KARU,F.C.T UP TO 1999</a></h6>
+                                    <ul class="list-inline">
+                                       <li class="list-inline-item details"><b>Course: </b>history</li>
+                                        <li class="list-inline-item details"><b>Pages: </b>45</li>
+                                        <li class="list-inline-item details"><b>Research date: </b>Novermber, 2019 </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="col col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_project bg-light mb-3">
+                                  <div class="card-body">
+                                    <h6 class="card-title text-center text-uppercase">History of ubanization in federal capital territory</h6>
+                                    <small class="text-uppercase text-center"> A case studyof jikwoyi and karu communities</small>
+                                    <ul class="list-inline">
+                                      <li class="list-inline-item details"><b>Course: </b>history</li>
+                                       <li class="list-inline-item details"><b>Pages: </b>73</li>
+                                       <li class="list-inline-item details"><b>Research date: </b>October, 2019 </li>
+                                     </ul>
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="col col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                <div class="card card_project bg-light mb-3">
+                                  <div class="card-body">
+                                    <h6 class="card-title text-center text-uppercase">Fuel subsidy removal and the Nigeria Economy</h6>
+                                    <small class="text-uppercase text-center">A case study of Abakiliki local governmentarea, Ebonyi State</small>
+                                    <ul class="list-inline">
+                                      <li class="list-inline-item details"><b>Course: </b>public administration</li>
+                                       <li class="list-inline-item details"><b>Pages: </b>126</li>
+                                       <li class="list-inline-item details"><b>Research date: </b>August, 2012 </li>
+                                     </ul>                
+                                  </div>
+                              </div>
+                              </div>
+                          </div>-->
+                        </div>
+                    
+                    </div>
+
+
+
+<!---------------------------------------------------------------------------------------------->
+
+                  </div>
+      </div>
+          </div>
+         
+      <script src="../bootstrap.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="../js/lecture.js"></script>
+<script src="../js/question.js"></script>
+<script src="../js/project.js"></script>
+</script>
+</body>
+</html>
