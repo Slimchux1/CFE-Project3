@@ -127,9 +127,11 @@ a.active:hover{
 @media screen and (max-width: 823px){
     .connect_uni_img{
         display: none;
+
     }
     .connect_uni_title {
         font-size: 1.2rem;
+        margin-top: 3rem;
     }
     .social-sm{
         display: block;
